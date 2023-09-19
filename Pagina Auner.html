@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empresa XYZ</title>
+    <style>
+        /* Estilos para el menú desplegable */
+        .dropdown {
+            position: right;
+            display: inline-block;
+        }
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #43bfdfe1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(248, 10, 10, 0.966);
+            z-index: 1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        /* Establecer la imagen de fondo */
+        body {
+            background-image: url('https://th.bing.com/th/id/OIP.cDwVYAcbrmj2GBMZ0qjn-gHaDc?w=326&h=162&c=7&r=0&o=5&pid=1.7'); /* Reemplaza la URL de la imagen Para poder cambiar el fondo */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: right; /* Alinea la imagen a la izquierda */
+        }
+
+        /* Estilos para la lista de opciones con imágenes */
+        .menu-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .menu-list-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .menu-list-item img {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pollo Campero</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li class="dropdown">
+                    <a href="#">Servicios</a>
+                    <div class="dropdown-content">
+                        <ul class="menu-list">
+                            <li class="menu-list-item">
+                                <img src="https://th.bing.com/th?id=OIP.5QTp9su-ryRdQOn0oj7KXQHaEo&w=316&h=197&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="Orden 1">
+                                <a href="#">Orden 1</a>
+                            </li>
+                            <li class="menu-list-item">
+                                <img src="https://th.bing.com/th/id/OIP.nfLfVU85HAneAQf01sd5-AHaEK?w=307&h=180&c=7&r=0&o=5&pid=1.7" alt="Orden 2">
+                                <a href="#">Orden 2</a>
+                            </li>
+                            <li class="menu-list-item">
+                                <img src="https://th.bing.com/th/id/OIP.shA9DBzvFUpFGb5jMZHW7wHaE8?w=254&h=180&c=7&r=0&o=5&pid=1.7" alt="Orden 3">
+                                <a href="#">Orden 3</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Acerca de Nosotros</a>
+                    <div class="dropdown-content">
+                        <a href="#">Historia</a>
+                        <P>Con toda la seguridad, podemos afirmar que Pollo Campero hoy en día es una marca con una increíble historia de admiración y superación.
+
+                            Además de tener un gran prestigio en Guatemala y dirigida por una de las familias más conocidas y poderosas del país.
+                            
+                            La familia Gutiérrez Bosch. Durante décadas, ha sido una familia de empresarios ejemplares, que motivan a las familias guatemaltecas y empresarios reconocidos en Centroamérica.
+                            
+                            Una de las grandes inversiones de la familia Bosch Gutiérrez ha sido en la gastronomía con la inauguración del Pollo Campero, por lo que se les considera una autoridad en cuanto a temas de este tipo se trata. </P>
+                        <a href="#">Misión y Visión</a>
+                        <P> Vision: bajo el desafío de generar alimentos que colaboren con la sana nutrición. Ser la cadena de restaurantes de pollo de origen latino líder en el  Mundo Entero</P>
+                        <P>Mision: Ofrecer la mejor experiencia se comer pollo en un restaurante de servicio rápido, logrando rentabilidad para nuestros socios (accionistas, franquicia arios, proveedores) y desarrollo para nuestros colaboradores, siendo buenos ciudadanos.</P>
+                        <a href="#">Equipo</a>
+                        <P>Combinamos un ambiente moderno, confortable y de estándar internacional para brindarte la experiencia integral de servicio que te mereces.</P>
+                    </div>
+                </li>
+                <li><a href="#">Contacto</a></li>
+                <P> 1777</P>
+                <P>servicioalcliente@campero.com</P>
+            </ul>
+        </nav>
+    </header>
+
+    <footer>
+        <p>Derechos de autor &copy; 2023 Pollo Campero</p>
+    </footer>
+</body>
+</html>
